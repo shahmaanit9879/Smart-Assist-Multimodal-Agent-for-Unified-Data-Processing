@@ -1,0 +1,44 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/
+
+# Temporary uploaded files (image/audio)
+temp/
+uploads/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution folders
+build/
+dist/
+*.egg-info/
+
+# Backup files
+*.bak
+*.old
