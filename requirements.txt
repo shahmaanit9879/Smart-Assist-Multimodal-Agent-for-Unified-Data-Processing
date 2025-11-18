@@ -1,0 +1,8 @@
+streamlit
+pillow
+python-dotenv
+openai
+numpy
+requests
+soundfile
+pydub
