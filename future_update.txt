@@ -1,0 +1,4 @@
+Future features:
+- Better image support
+- Better agent system
+- Live monitoring
