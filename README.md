@@ -1,8 +1,3 @@
-## Problem
-SmartAssist unifies text, image and audio processing in one agent system to save time and reduce tool switching.
-
-
-
 Smart-Assist: Multimodal Agent for Unified Data Processing
 
 Google 5-Day AI Intensive – Capstone Project
