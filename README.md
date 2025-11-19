@@ -33,6 +33,18 @@ Developers integrating multimodal AI into apps
 
 Anyone who wants one AI system that handles everything
 
+---
+
+
+## Architecture (simple)
+User → CoordinatorAgent → [TextAgent | ImageAgent | AudioAgent] → Final Output
+
+Components:
+- src/assistant.py (SmartAssist)
+- src/agents.py (TextAgent, ImageAgent)
+- src/monitoring.py (logs)
+- src/guardrails.py (PII / safety)
+- app/app.py (Streamlit UI)
 
 
 ---
