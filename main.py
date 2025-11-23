@@ -1,3 +1,12 @@
+
+# main.py (add this at top)
+import logging
+logging.basicConfig(filename='logs/system.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
+logger = logging.getLogger("SmartAssist")
+
+logger.info("Main started")
+
 # main.py
 from src.text_agent import handle_text
 from src.image_agent import handle_image
